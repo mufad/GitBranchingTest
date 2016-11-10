@@ -20,4 +20,8 @@ public class MainActivity extends AppCompatActivity {
     public void branch_one(View view) {
         Toast.makeText(MainActivity.this, "I'm from branch number one", Toast.LENGTH_SHORT).show();
     }
+
+    public void branch_two(View view) {
+        Toast.makeText(MainActivity.this, "I'm from branch number two", Toast.LENGTH_SHORT).show();
+    }
 }

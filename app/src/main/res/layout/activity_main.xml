@@ -24,4 +24,14 @@
         android:layout_below="@+id/button"
         android:layout_alignLeft="@+id/button"
         android:layout_alignStart="@+id/button" />
+
+    <Button
+        android:text="BRUNCH_TWO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:onClick="branch_two"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:id="@+id/button3" />
 </RelativeLayout>
